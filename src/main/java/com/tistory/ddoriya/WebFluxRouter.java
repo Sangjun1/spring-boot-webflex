@@ -1,7 +1,6 @@
 /*
  * @(#) WebFluxRouter.java 2020. 11. 20.
  *
- * Copyright 2020. PlayD Corp. All rights Reserved.
  */
 package com.tistory.ddoriya;
 
