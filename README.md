@@ -8,7 +8,7 @@ spring-boot-webflu
 해당 bean 생성으로 파이브라인을 만들어줍니다.
 
 
-\'
+```
 @Bean
 public RouterFunction<ServerResponse> getInitalizedRoute(WebFluxHandler handler) {
 return RouterFunctions
@@ -21,5 +21,4 @@ return RouterFunctions
 .andRoute(RequestPredicates.DELETE("/api/user")
 .and(RequestPredicates.accept(MediaType.APPLICATION_JSON)), handler::deleteUser);
 }
-  
-'\
+```
